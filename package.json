@@ -1,10 +1,9 @@
 {
   "name": "Foodfy-back-end",
   "version": "1.0.0",
-  "description": "",
+  "description": "Back end of the Foodfy recipe web app.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
@@ -12,10 +11,13 @@
     "url": "git+https://github.com/brunoBMonteiro/Foodfy-back-end.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Bruno Bilheri Monteiro",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/brunoBMonteiro/Foodfy-back-end/issues"
   },
-  "homepage": "https://github.com/brunoBMonteiro/Foodfy-back-end#readme"
+  "homepage": "https://github.com/brunoBMonteiro/Foodfy-back-end#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
